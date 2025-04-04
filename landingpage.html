@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crafting Next</title>
+  <link rel="stylesheet" href="page.css">
+  <script src="https://kit.fontawesome.com/1f3f0a351e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fa-brands fa-bluesky"></i></div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <section  id="home" class="hero">
+    <div>
+      <h1 data-aos="fade-down">Crafting Next-Gen Digital Experiences</h1>
+      <p data-aos="fade-up">We craft digital solutions that blend innovation with impact.<br>
+        From intuitive designs to powerful performance,<br>
+        our experiences are built for the future.<br>
+        Driven by creativity, fueled by technology,<br>
+        we turn ideas into immersive realities.<br>
+        Whether web, mobile, or beyond —<br>
+        we build with purpose, precision, and passion.<br>
+        Welcome to the next generation of digital excellence.<br>
+      </p>
+      
+      <button class="glow-btn" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">Explore </button>
+    </div>
+  </section>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p style="text-align:center; max-width: 700px; margin:auto; color:#cbd5e1;">
+      We're a team of creators, thinkers, and doers committed to transforming ideas into reality with futuristic digital solutions.</p><br>
+    <p style="text-align:center; max-width: 700px; margin:auto; color:#cbd5e1;">
+      Our mission is to empower businesses and individuals through innovative technology, design, and strategy. We believe in the power of collaboration and creativity to drive success.</p><br>
+    <p style="text-align:center; max-width: 700px; margin:auto; color:#cbd5e1;">
+      Join us on this journey to explore the endless possibilities of the digital world.
+    </p>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdEIAERe1Ns89cBFyIcFOUGyFHBo6ks1Sl2g&s" alt="Team Member">
+        <br><br>Tesla<br>
+        <p class="tecard">Tesla is an American electric vehicle and clean energy company founded in 2003, known for its innovation in sustainable transportation and battery technology.</p>
+        <a href="https://www.tesla.com/" target="_blank">Tesla</a></div>
+        
+      <div class="project-card">
+        <img src="data:image/png;base64,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" alt="Team Member">
+        <br><br>Google<br>
+      <p class="tecard">Google is a multinational technology company founded in 1998, best known for its search engine, and it also develops products like Android, Chrome, and Google Cloud.</p>
+      <a href="https://www.google.com" target="_blank">Google</a>
+    </div>
+
+      
+      <div class="project-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ26D5I-j1VNcuytKP-lA21gQcda2PaA0L2fw&s" alt="Team Member">
+        <br><br>Facebook<br>
+      <p class="tecard">Google is a multinational technology company founded in 1998, best known for its search engine, and it also develops products like Android, Chrome, and Google Cloud.</p>
+      <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" target="_blank">Facebook</a></div>
+    </div>
+  </section>
+
+  <section id="team" data-aos="fade-up">
+    <h2>Meet our Team</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlc1hbnqeopTQO52WwXdx8zGvEgeW3OP8pDQ&s" alt="Team Member">
+        <h3>Elon musk</h3>
+        <p>Frontend Developer</p>
+        <div class="socials">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="data:image/jpeg;base64,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" alt="Team Member">
+        <h3>Sundar Pichai</h3>
+        <p>UI/UX Designer</p>
+        <div class="socials">
+          <i class="fa-brands fa-google"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYys5rJbgS51jmeYdKPJW0Vlwx4u1cvqhpuA&s" alt="Team Member">
+        <h3>Mark Zuckerberg</h3>
+        <p>Backend Engineer</p>
+        <div class="socials">
+          <i class="fab fa-linkedin"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="glow-btn">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Crafting Next | Designed with vision & innovation</p>
+     <div>
+      Built with passion, precision, and purpose.<br>
+      |  hello@nextgen.digital |  Hyderabad, India. <br>
+        <div class="socials">
+          Follow us on:
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook-f"></i>  
+        </div>
+        Made By Vineeth Varma Muddasani
+     </div>
+  </footer>
+
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+  <script src="page.js"></script>
+  
+</body>
+</html>
